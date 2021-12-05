@@ -1,0 +1,21 @@
+{
+  "name": "05",
+  "version": "1.0.0",
+  "description": "Each endpoint holds some data, but someone made a mistake and shuffled it. Thankfully, all users ids are still here !  You have to fix it ! For that, you have to make a backup of each endpoint locally (one json file per endpoint), then compile them in one file, sanitize the data, store it locally and upload it on JsonBox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage",
+    "lint": "eslint",
+    "prettier": "prettier --write"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.4.0",
+    "jest": "^27.4.3",
+    "prettier": "^2.5.1"
+  }
+}
