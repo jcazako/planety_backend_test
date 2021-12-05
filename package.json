@@ -19,6 +19,7 @@
     "prettier": "^2.5.1"
   },
   "dependencies": {
-    "superagent": "^6.1.0"
+    "superagent": "^6.1.0",
+    "uuid": "^8.3.2"
   }
 }
