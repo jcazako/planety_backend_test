@@ -6,8 +6,8 @@
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage",
-    "lint": "eslint",
-    "prettier": "prettier --write"
+    "lint": "eslint lib/**/*",
+    "prettier": "prettier --write lib/**/*"
   },
   "type": "module",
   "keywords": [],
